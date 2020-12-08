@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "reviewapp",
+    "name": "game review app",
     "slug": "reviewapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/gamezone.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -16,6 +16,10 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.bemal.reviewapp",
+      "versionCode": 1
+    },
     "ios": {
       "supportsTablet": true
     },
